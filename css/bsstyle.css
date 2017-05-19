@@ -183,13 +183,13 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 .fa {
-    padding: 5px;
+	padding: 5px;
 	font-size: 40px;
 	width: 50px;
 	height: 50px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
 }
 .fa:hover {
     opacity: 0.7;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-decoration: none;
 }
 .fa-ukoe {
-	background: url(../img/UKoE.png) 0px 0px/100px 100px; no-repeat fixed center;
+	background: url(../img/UKoE.png) 0px 0px/50px 50px; no-repeat fixed center;
 }
 @media (min-width: 768px) {
 	.fa{
