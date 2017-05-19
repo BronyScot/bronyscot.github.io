@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .intro .intro-body {
 	display: table-cell;
-	vertical-align: middle;	
+	vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
 	display: inline;
@@ -139,6 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 	justify-content: flex-start;
 	flex-direction: row;
 }
+
 @media (min-width: 768px) {
 	.intro {
 		height: 100%;
@@ -168,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	.intro .intro-body .brand-heading-img-lg{
 		display: inline;
-		width: 100%;
+		width: 85%;
 		height:auto;
 	}
 	.intro .intro-body .brand-heading-img-sm{
@@ -179,5 +180,44 @@ h1, h2, h3, h4, h5, h6 {
 		align-items: center;
 		justify-content: center;
 		flex-direction: row;
+	}
+}
+.fa {
+    padding: 10px;
+    font-size: 80px;
+    width: 100px;
+	height: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+	text-decoration: none;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+	text-decoration: none;
+}
+.fa-ukoe {
+	background: url(../img/UKoE.png) 0px 0px/100px 100px; no-repeat fixed center;
+}
+@media (min-width: 768px) {
+	.fa{
+		padding: 5px;
+		font-size: 40px;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 50%;
+	}
+	.fa-ukoe {
+	background: url(../img/UKoE.png) 0px 0px/50px 50px; no-repeat fixed center;
 	}
 }
