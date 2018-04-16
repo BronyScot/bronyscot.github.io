@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 50px 0;
 	text-align: center;
 	color: white;
-	background: url(../img/intro-splash-background-rotated.jpg) no-repeat bottom center scroll;
+	background: url(../img/intro-splash-background-small.png) no-repeat bottom center scroll;
 	background-color: Black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -121,9 +121,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 }
-.brand-img {
-	width: 100%;
-	height:auto;
+.brand-img{
+	display: None;
 }
 .intro .intro-body .brand-heading-img-lg{
 	display: None;
@@ -145,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 		height: 100%;
 		width:100%;
 		padding: 0;
-		background: url(../img/intro-splash-background.jpg) no-repeat bottom center scroll;
+		background: url(../img/intro-splash-background.png) no-repeat bottom center scroll;
 		background-color: Black;
 	}
 	.intro .intro-body .brand-heading {
@@ -160,7 +159,8 @@ h1, h2, h3, h4, h5, h6 {
 		font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 26px;
 	}
-	.brand-img {
+	.brand-img{
+		display: inline;
 		width: 100%;
 		height:auto;
 	}
