@@ -125,11 +125,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 }
-.brand-img{
+.brand-img-sm{
 	display: inline;
 	width: 100%;
 	height:auto;
 	}
+.brand-img{
+	display: none;
+}
 .intro .intro-body .brand-heading-img-lg{
 	display: None;
 }
@@ -186,6 +189,9 @@ h1, h2, h3, h4, h5, h6 {
 		align-items: center;
 		justify-content: center;
 		flex-direction: row;
+	}
+	.brand-img-sm{
+	display: none;
 	}
 }
 .fa {
