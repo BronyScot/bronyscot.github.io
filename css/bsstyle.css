@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: table;
 	width: auto;
 	height: 100%;
-	padding: 50px 0;
+	padding: 0;
 	text-align: center;
 	color: white;
 	background: rgb(230,231,235);
@@ -126,8 +126,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 18px;
 }
 .brand-img{
-	display: None;
-}
+	display: inline;
+	width: 100%;
+	height:auto;
+	}
 .intro .intro-body .brand-heading-img-lg{
 	display: None;
 }
